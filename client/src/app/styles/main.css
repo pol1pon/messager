@@ -1,0 +1,16 @@
+@import url('../../pages/ChatsListPage/chatsListPage.css');
+@import url('../../pages/Registration/registration.css');
+
+body{
+    font-family: sans-serif;
+    padding: 0;
+    margin: 0;
+    /* background-color: black ; */
+    background-image: url('https://i.pinimg.com/736x/b7/f9/b5/b7f9b57ba07b3948b1c34214466404a4.jpg');
+    /* background-image: url('https://img.freepik.com/premium-vector/contour-map-background-vector-geography-scheme-terrain-light-topography-grid-map_744733-657.jpg'); */
+    background-size: cover; /* Масштабирует изображение с сохранением пропорций */
+    background-position: center; /* Центрирует изображение */
+    background-repeat: no-repeat; /* Запрещает повторение */
+    height: 100vh; /* Важно: задаем высоту */
+    color: white;
+}

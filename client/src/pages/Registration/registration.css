@@ -1,0 +1,61 @@
+*{
+    font-family: sans-serif;
+}
+
+
+.auth-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    height: 450px;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid rgba(255, 255, 255, 0.319).1px ;
+    border-radius: 13px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+    margin: 125px;
+}
+main{
+    display: flex;
+    justify-content: space-around;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.inputDiv{
+    margin: 5px;
+    padding: 5px;
+}
+.authinput{
+    border: none;
+    outline: none;
+    height: 35px;
+    border-radius: 13px;
+    width: 250px;
+    text-align: center;
+}
+.submit__button{
+    outline: none;
+    border: none;
+    border-radius: 13px;
+    padding: 10px 15px;
+    transition: all 0.3s ease;
+}
+.submit__button:hover {
+    transform: scale(1.1);
+}
+.have__account{
+    color: white;
+    transition: all 0.3s ease;
+}
+.have__account:hover{
+    color: blue;
+    cursor: pointer;
+}
+button{
+    font-family: sans-serif;
+}

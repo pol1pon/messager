@@ -1,0 +1,30 @@
+.block{
+    height: 530px;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+    max-height: 530px;
+}
+.Chat{
+    display: flex;
+    flex-direction: column;
+}
+.MessBlock{
+    height: 65%;
+    width: 100%;
+}
+.fullBlock{
+    display: flex;
+    flex-direction: column;
+
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+}
+.sentBlock{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}

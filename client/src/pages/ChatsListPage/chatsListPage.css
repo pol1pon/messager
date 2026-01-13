@@ -1,0 +1,30 @@
+.Main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+.ChatSector{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    height: 90vh;
+    width: 100%;
+    gap: 15px;
+}
+.MessagesChat{
+    padding: 0px;
+    width: 65%;
+    background: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: solid rgba(255, 255, 255, 0.319).1px ;
+    border-radius: 13px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+}
+.authButton{
+    height: 250px;
+    border-radius: 8px;
+}
